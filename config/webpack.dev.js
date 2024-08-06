@@ -1,7 +1,7 @@
-import HtmlWebpackPlugin from "html-webpack-plugin";
-import ESLintPlugin from "eslint";
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const ESLintPlugin = require('eslint-webpack-plugin');
 
-export default {
+module.exports = {
     mode: 'development',
     entry: './src/index.js',
     devtool: 'inline-source-map',
